@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    color: aliceblue;
+    size: 28px;
+  }
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  height: 100vh;
+  align-items: center;
+  margin-left: 20%;
+}
+
+/* SECTION ONE LEFT */
+.first {
+    color: rgb(252, 246, 246);
+    /* padding-left: 1px; */
+  }
+  .first p{
+      font-size: 15px;
+  }
+  h3 {
+      color: rgb(253, 247, 247);
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+
+/* SECTION TWO FORM */
+
+
+/*styling the form*/
+form {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 350px;
+  background-color: hsl(246, 50%, 96%);
+  justify-content: center;
+  align-items: center;
+  background-size: 20px;
+}
+
+form input {
+  padding: 15px;
+  margin: 5px;
+}
+a {
+  color: red;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+button {
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(154, 59%, 51%);
+  font-size: 10px;
+  padding: 10px;
+  width: 250px;
+  margin: 5px;
+  border-color: rgb(114, 88, 88);
+}
+
+body {
+  width: 1440px;
+  align-items: center;
+  font-size: 16px;
+  font-family: Poppins;
+
+  background-color: hsl(0, 100%, 74%);
+}
+
+ h1 {
+  background-color: hsl(248, 32%, 49%);
+  font-size: small;
+  background-size: 20px;
+  padding-left: 15px;
+}
+
+.second {
+    padding: 10px;
+}
+
+
+.third p {
+  color: black;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+  padding: 18px;
+}
